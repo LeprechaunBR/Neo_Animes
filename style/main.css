@@ -1,0 +1,57 @@
+:root{
+    --azul:#0056ff;
+    --preta:#141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* elementos base */
+
+body{
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+header i{
+    margin-left: 20px;
+}
+
+header i:hover{
+    cursor: pointer;
+    color: var(--azul);
+    transition: .3s ease all;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .nav-bar-principal{
+    text-decoration: none;
+
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.logo{
+    color: var(--azul);
+    font-family: 'Helvetica', Times;
+    font-size: 40px;
+}
