@@ -130,3 +130,20 @@ li{
 .container {
     margin-left: 20px;
 }
+
+.box-animes {
+    height: 100%;
+    max-width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.carrosel-animes {
+    margin-top: 5px;
+}
+
+.carrosel-animes .titulo-carrosel {
+    margin: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
