@@ -29,11 +29,12 @@ header .container {
     justify-content: space-between;
 }
 
-header .logo {
+header .logo a {
     margin-left: 5px;
     color: var(--azul);
     font-family: 'Helvetica', Times;
     font-size: 40px;
+    cursor: pointer;
 }
 
 .nav-bar{
